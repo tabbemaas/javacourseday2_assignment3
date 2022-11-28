@@ -1,3 +1,5 @@
+package A3;
+
 public class ArrayBuilder {
     private int[] numbers;
 

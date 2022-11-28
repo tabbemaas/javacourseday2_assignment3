@@ -1,3 +1,5 @@
+package A3;
+
 public class Main {
     public static void main(String[] args) {
         ArrayBuilder array = new ArrayBuilder(new int[] {1,2,3,4,5});

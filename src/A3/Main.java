@@ -9,5 +9,18 @@ public class Main {
         for (int i = 0; i < array.getNumbers().length; i++) {
             System.out.println(array.getNumbers()[i]);
         }
+        looper();
     }
+
+    public static void looper() {
+        int[] testArray = new int[5];
+
+        for (int i = 0; i < testArray.length; i++) {
+            testArray[i]=i+1;
+        }
+        for (int j : testArray) {
+            System.out.println(j);
+        }
+    }
+
 }
